@@ -31,4 +31,4 @@ def gioia_(folder_dir,delimiter_):
     #print only the necessary columns.
     print(unique_occurences[['url_domain','app','pk']].to_string())
 
-gioia_('c:/Users/mchung/Documents/Gioia/20211920 - Past7days_URLsforGoogle.txt',',')
+gioia_('<file path here>',',')
